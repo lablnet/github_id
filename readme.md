@@ -1,5 +1,5 @@
 # Overview
-A simple JavaScript App to find Github account ID from username by using Github API
+A simple JavaScript App to find GitHub account ID from username by using GitHub API
 
 ## Install
 - First clone the repo  `git clone https://github.com/Lablnet/github_id`  
