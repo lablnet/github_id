@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Find Github id by username</title>
+  </head>
+  <body>
+    <header>
+      <h1>Find Github ID by username</h1>
+      <div id="form">
+        <div>
+          <input type="text" name="username" id="username" placeholder="Enter yout github username" />
+        </div>
+        <div class="">
+          <button type="button" name="find" id="find">Find</button>
+          <span class="loading" style="display:none"></span>
+        </div>
+      </div>
+      <div id="result">
+        <h2>
+          <strong><span id="res_username"></span></strong> is Github user, <strong>#<span id="id"></span></strong>
+        </h2>
+      </div>
+      <div id="error">
+        <strong>Error, seems the github username does not found</strong> <strong><span id="customError"></span></strong>.
+      </div>
+    </header>
+    <footer>
+      <h4>
+        By Umer <a href="https://github.com/Lablnet/github_id">Find on github</a>
+      </h4>
+    </footer>
+  </body>
+  <script src="public/bundle.js" charset="utf-8"></script>
+</html>

@@ -1,0 +1,52 @@
+/* Body */
+body {
+  text-align: center;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+/* Input */
+input {
+  padding: 12px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Button */
+button {
+  padding: 6px;
+  color: #fff;
+  background: #000;
+  border: 1px solid #000;
+  width: 300px;
+  margin-top: 12px;
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+}
+.working {
+  background: gray;
+  pointer-events: none;
+}
+
+/* Result */
+#result, #error {
+  display: none;
+}
+
+/* Error */
+#error strong {
+  color: red;
+  font-size: 19px;
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+footer a {
+  color: black;
+}
